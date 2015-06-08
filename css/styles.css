@@ -1,0 +1,144 @@
+/* Headings & Body Text */
+h1 {
+	background: #a2c8a8;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	background: #84b59f;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	background: #ddd8c4;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+	background: #ddd8c4;
+}
+
+/* Images & Links*/
+img {
+	display: block;
+	margin-right: auto;
+}
+
+.banner {
+	width: 100%;
+	height: auto;
+	max-width: 700px;
+}
+
+.portfolio {
+	margin: 3em;
+	width: 40%;
+	height: 40%;
+	display: block;
+}
+
+a {
+	color: #000;
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding: 5px;
+	margin: auto;
+	text-decoration: none;
+	transition: background 1s;
+}
+
+a:hover {
+	background: #84b59f;
+}
+
+/* Interactive */
+input {
+	display: block;
+	margin-bottom: 5px;
+}
+
+/* Media Queries */
+
+@media (min-width: 1px) and (max-width: 767px) {
+	.grid-container > [class^="grid-"] {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.hide-mobile {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	/* Columns */
+	.grid-container > [class^="grid-"] {
+		float: left;
+		min-height: 1px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-left: 2%;
+	}
+	.grid-container > [class^="grid-"]:first-child {
+		margin-left: 0;
+	}
+	.grid-container > [class^="grid-"]:last-child {
+		float: right;
+	}
+
+	/* Columns are 65px wide, with 20px gutters */
+	.grid-1 {
+		width: 6.5%;
+	}
+	.grid-2 {
+		width: 15%;
+	}
+	.grid-3 {
+		width: 23.5%;
+	}
+	.grid-4 {
+		width: 32%;
+	}
+	.grid-5 {
+		width: 40.5%;
+	}
+	.grid-6 {
+		width: 49%;
+	}
+	.grid-7 {
+		width: 57.5%;
+	}
+	.grid-8 {
+		width: 66%;
+	}
+	.grid-9 {
+		width: 74.5%;
+	}
+	.grid-10 {
+		width: 83%;
+	}
+	.grid-11 {
+		width: 91.5%;
+	}
+	.grid-12 {
+		width: 100%;
+	}
+
+	/* Clearfix */
+
+	.grid-container:after,
+	.group:after {
+	  content: " ";
+	  display: table;
+	  clear: both;
+	}
+}
