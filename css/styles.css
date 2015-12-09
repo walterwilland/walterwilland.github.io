@@ -4,10 +4,12 @@ h1 {
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
 }
+.char1 {
+    margin-left: -1.1em;   
+}
 
 h2 {
 	font-family: 'Oswald', sans-serif;
-	background: #84b59f;
 }
 
 h3 {
@@ -20,12 +22,10 @@ h4 {
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	background: #ddd8c4;
 }
 
 li {
 	font-family: 'Open Sans', sans-serif;
-	background: #ddd8c4;
 }
 
 /* Images & Links*/
@@ -34,45 +34,48 @@ img {
 	margin-right: auto;
 }
 
-.blank {
-	height: 3em;
-}
-
 .banner {
 	width: 100%;
-	height: auto;
-	max-width: 700px;
 }
 
 .portfolio {
-	margin: 3em;
-	width: 40%;
-	height: 40%;
-	display: block;
+    margin-left: 1em;
+	width: 60%;
+}
+
+.download {
+    margin-left: 1em;   
+}
+
+div {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+section {
+    margin-left: 1em;
 }
 
 a {
 	color: #000;
-	float: left;
 	font-family: 'Open Sans Condensed', sans-serif;
-	padding: 5px;
-	margin: auto;
+	padding: .8em;
 	text-decoration: none;
 	transition: background 1s;
 }
 
 a:hover {
-	background: #84b59f;
+	background: #a2c8a8;
 }
 
 /* Interactive */
 input {
 	display: block;
-	margin-bottom: 5px;
+	margin-bottom: .5em;
+    margin-left: 1em;
 }
 
 /* Media Queries */
-
 @media (min-width: 1px) and (max-width: 767px) {
 	.grid-container > [class^="grid-"] {
 		padding-top: 5px;
