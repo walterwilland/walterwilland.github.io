@@ -8,10 +8,16 @@ h1 {
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
 }
+.char1 {
+    margin-left: -1.1em;   
+}
 
 h2 {
 	font-family: 'Oswald', sans-serif;
+<<<<<<< HEAD
     margin-left: 1em;
+=======
+>>>>>>> master
 }
 
 h3 {
@@ -25,8 +31,11 @@ h4 {
 
 p {
 	font-family: 'Open Sans', sans-serif;
+<<<<<<< HEAD
     padding: 1em;
     width: 100%;
+=======
+>>>>>>> master
 }
 
 li {
@@ -36,11 +45,16 @@ li {
 /* Images & Links*/
 img {
 	display: block;
+<<<<<<< HEAD
 	margin: 0 auto;
+=======
+	margin-right: auto;
+>>>>>>> master
 }
 
 .banner {
 	width: 100%;
+<<<<<<< HEAD
 }
 
 .portfolio {
@@ -50,25 +64,53 @@ img {
 
 div {
  margin-top: 1em;   
+=======
+    max-width: 1200px;
+}
+
+.portfolio {
+    margin-left: 1em;
+	width: 60%;
+}
+
+.download {
+    margin-left: 1em;   
+}
+
+div {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+section {
+    margin-left: 1em;
+>>>>>>> master
 }
 
 a {
 	color: #000;
 	font-family: 'Open Sans Condensed', sans-serif;
-	padding: 5px;
-	margin: auto;
+	padding: .8em;
 	text-decoration: none;
 	transition: background 1s;
 }
 
 a:hover {
+<<<<<<< HEAD
 	background: #A2C8A8;
+=======
+	background: #a2c8a8;
+>>>>>>> master
 }
 
 /* Interactive */
 input {
 	display: block;
+<<<<<<< HEAD
 	margin-bottom: 5px;
+=======
+	margin-bottom: .5em;
+>>>>>>> master
     margin-left: 1em;
 }
 
