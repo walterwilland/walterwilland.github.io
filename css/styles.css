@@ -1,4 +1,8 @@
 /* Headings & Body Text */
+body {
+  	background-image: ;
+}
+
 h1 {
 	background: #a2c8a8;
 	font-family: 'Oswald', sans-serif;
@@ -7,11 +11,12 @@ h1 {
 
 h2 {
 	font-family: 'Oswald', sans-serif;
-	background: #84b59f;
+    margin-left: 1em;
 }
 
 h3 {
 	font-family: 'Oswald', sans-serif;
+    margin-left: 1em;
 }
 
 h4 {
@@ -20,40 +25,35 @@ h4 {
 
 p {
 	font-family: 'Open Sans', sans-serif;
-	background: #ddd8c4;
+    padding: 1em;
+    width: 100%;
 }
 
 li {
 	font-family: 'Open Sans', sans-serif;
-	background: #ddd8c4;
 }
 
 /* Images & Links*/
 img {
 	display: block;
-	margin-right: auto;
-}
-
-.blank {
-	height: 3em;
+	margin: 0 auto;
 }
 
 .banner {
 	width: 100%;
-	height: auto;
-	max-width: 700px;
 }
 
 .portfolio {
-	margin: 3em;
-	width: 40%;
-	height: 40%;
-	display: block;
+    width: 80%;
+    padding: 1em;
+}
+
+div {
+ margin-top: 1em;   
 }
 
 a {
 	color: #000;
-	float: left;
 	font-family: 'Open Sans Condensed', sans-serif;
 	padding: 5px;
 	margin: auto;
@@ -62,17 +62,17 @@ a {
 }
 
 a:hover {
-	background: #84b59f;
+	background: #A2C8A8;
 }
 
 /* Interactive */
 input {
 	display: block;
 	margin-bottom: 5px;
+    margin-left: 1em;
 }
 
 /* Media Queries */
-
 @media (min-width: 1px) and (max-width: 767px) {
 	.grid-container > [class^="grid-"] {
 		padding-top: 5px;
@@ -138,7 +138,6 @@ input {
 	}
 
 	/* Clearfix */
-
 	.grid-container:after,
 	.group:after {
 	  content: " ";
