@@ -36,6 +36,7 @@ img {
 
 .banner {
 	width: 100%;
+    max-width: 1200px;
 }
 
 .portfolio {
