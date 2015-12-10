@@ -1,16 +1,9 @@
 // My Scripts
 
-// How to implement the lettering js plugin
-// $('element').lettering();
+$('h1').lettering();
 
-// How to implement the feather light js plugin
-// $('element').featherlight(content, configuration);
-
-$(document).ready(function(){
-
-    $('h1').lettering();
-
+$(document).ready(function() {
+  $('a').magnificPopup({type:'image', type: 'image'});
 });
 
-
-//$('h1').featherlight();
+$('a').magnificPopup({delegate: 'a', type: 'image'});
